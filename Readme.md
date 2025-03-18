@@ -8,4 +8,4 @@ Bienvenido a mi portfolio personal. Aquí encontrarás mis proyectos, informaci�
 - JavaScript
 
 ## Cómo ver el sitio
-Puedes ver mi portfolio en [GitHub Pages](https://tuusuario.github.io/mi-portfolio/).
+Puedes ver mi portfolio en [GitHub Pages](hhttps://github.com/AlejandroFontesAlbeza/Portfolio).
