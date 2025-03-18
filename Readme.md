@@ -10,5 +10,4 @@ Bienvenido a mi portfolio personal. Aquí encontrarás mis proyectos, informaci�
 ## 🌍 Ver mi Portfolio Online  
 Puedes ver mi portfolio en el siguiente enlace:  
 
-🔗 [Mi Portfolio](https://alejandrofontesalbeza.github.io/Portfolio/)
-
+Puedes ver mi portfolio en [GitHub Pages](https://alejandrofontesalbeza.github.io/Portfolio/).
