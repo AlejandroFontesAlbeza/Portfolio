@@ -1,36 +1,157 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset de márgenes y paddings */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado principal */
+header {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Sección sobre mí */
+#about {
+    padding: 60px 0;
+    background-color: white;
     text-align: center;
 }
 
-header {
-    background-color: #0073e6;
-    color: white;
-    padding: 20px;
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-h1 {
-    margin: 0;
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-section {
-    padding: 20px;
-}
-
-.project {
+/* Sección de proyectos */
+#projects {
+    padding: 60px 0;
     background-color: #f4f4f4;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
 }
 
+#projects h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.project-card p {
+    color: #666;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Sección de contacto */
+#contact {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
     background-color: #222;
     color: white;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    text-align: center;
+    padding: 20px;
 }
