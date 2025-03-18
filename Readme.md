@@ -7,5 +7,8 @@ Bienvenido a mi portfolio personal. Aquí encontrarás mis proyectos, informaci�
 - CSS
 - JavaScript
 
-## Cómo ver el sitio
-Puedes ver mi portfolio en [GitHub Pages](hhttps://github.com/AlejandroFontesAlbeza/Portfolio).
+## 🌍 Ver mi Portfolio Online  
+Puedes ver mi portfolio en el siguiente enlace:  
+
+🔗 [Mi Portfolio](https://alejandrofontesalbeza.github.io/Portfolio/)
+
